@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    height: 200px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+    background-color: rgba(18, 131, 121, 0.753);
+}
+
+.h1{
+    font-size: 3rem;
+    padding: 40px 0 10px 0;
+}
+
+.header p{
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.header img{
+    border: solid 10px #fff;
+    transform: translateY(5px);
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px #555;
+}
+
+main{
+    height: 100vh;
+    background-color: white;
+}
+
+.seccion{
+    margin: auto;
+    padding: 75px 10px;
+    width: 90%;
+    box-shadow: 1px 1px 10px #555;
+    text-align: center;
+}
+
+.icons{
+    color: #a1a1a1;
+    font-size: 2.5rem;
+    padding: 20px 0;   
+}
+
+.icons i{
+    margin: 0 100px;
+}
+
+.seccion article{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.btn button{
+    padding: 10px 20px;
+    background-color: #04695cd5;
+    border: none;
+    color: #fff;
+    margin: 0 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #555;
+}
+
+.informacion h2 {
+    text-align: center;
+    color: #5f5b5b;
+    padding: 20px 0;
+}
+
+.container-informacion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 10px;
+}
+
+.elements{
+    box-shadow: 1px 1px 10px #555;
+}
+
+.elements h3{
+    font-style: italic;
+    color: #fff;
+    font-weight: 80;
+    padding: 10px;
+    background-color: #3b3b3b;
+}
+
+.detalles{
+    font-style: italic;
+    padding: 10px;
+}
+
+.separador-uno{
+    padding: 0 50px;
+    border-right: 5px rgba(3, 68, 57, 0.555) solid;
+}
+
+.separador-uno .elements{
+    margin-bottom: 30px;
+}
+
+.separador-dos{
+    padding: 0 50px;
+    margin-block-end: 70px;
+}
+
+.separador-dos .elements:first-child{
+    transform: translateY(50px);
+}
+
+.separador-dos .elements:nth-child(2){
+    transform: translateY(50px);  
+}
+
+
+.separador-dos .elements{
+    margin-bottom: 30px;
+}
+
+.container-trabajos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 10px;
+}
+
+.trabajos h2 {
+    text-align: center;
+    color: #5f5b5b;
+    padding: 20px 0;
+}
+
